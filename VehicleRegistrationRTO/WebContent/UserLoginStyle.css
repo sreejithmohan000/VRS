@@ -1,0 +1,149 @@
+@CHARSET "ISO-8859-1";
+.secStyle{
+    
+    background-image: url("bgimg.jpg");
+    background-size: 1550px;
+  /*width: 1527px;
+  height: 744px;*/ 
+   /* filter: blur(8px);
+  -webkit-filter: blur(8px);*/
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+ 
+ /* background-repeat: no-repeat;
+  background-size: cover;*/
+font-family: sans-serif;
+}
+#tstyle th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: green;
+  color: white;
+}
+
+.divStyle{
+    /*color: black;
+    margin-left: 275px;
+    margin-top: 255px;*/
+    
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+ width: 480px;
+   margin-left: -16px;
+    margin-top: 70px;
+    
+}
+.divStyle1{
+	/*  margin-top: 458px;*/
+	 background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+ width: 1005px;;
+   margin-left: -16px;
+   margin-top: 50px;
+}
+.divStyle1 img{
+	width:100px;
+	height: 100px;
+}
+.single-slide-item{
+	background-image: url(bgimg.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-size: 1550px;
+  width: 1527px;
+  height: 660px;
+  font-family: sans-serif;
+}
+/*.secStyle img{
+	
+	padding: 80px 0;
+	  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}*/
+.divSty{
+    /*color: black;*/
+    margin-left: 35px;
+    margin-top: 251px;
+   
+}
+#btn input{
+	margin-top: 25px;
+	margin-left: 450px;
+}
+
+#btn input :hover{
+	background-color: yellow;
+}
+.loginform{
+    width: 500px;
+    height: 200px;
+    background-color: lightblue;
+    margin-left: 500px;
+    margin-top: 250px;
+
+}
+.tablelogin{
+    margin-top: 200px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #0000ff;
+}
+
+.active {
+  background-color: #000000;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
